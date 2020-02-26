@@ -1,4 +1,4 @@
-FROM pihole/pihole:4.3.2-1
+FROM pihole/pihole:v4.4-amd64
 
 WORKDIR /usr/src
 
