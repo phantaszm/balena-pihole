@@ -20,7 +20,7 @@ services:
 
   # set pihole DNS1 and DNS2 service variables to 127.0.0.1#5053 to use dnscrypt-proxy for upstream DNS
   dnscrypt-proxy:
-    image: klutchell/dnscrypt-proxy:2.0.36
+    image: klutchell/dnscrypt-proxy:2.0.36@sha256:6a032c53792a35b6bd67be636bbec62b51acad605b4366b051584571c5ab8514
     ports:
       - '5053:5053/udp'
     dns:
